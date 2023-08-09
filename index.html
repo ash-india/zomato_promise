@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>ZOMATO</title>
+</head>
+<body>
+    <div class="disclaimer-cont">
+        <div class="disclaimer">
+            This is ZOMATO, where every penny brings taste with it.
+        </div>
+    </div>
+
+    <div class="header">
+        <p id="currentStatus">Waiting for Restaurant Acceptance</p>
+        <div class="statuses">
+            <p id="status" class="badge">On Time 😊</p>
+            <p id="status-time" class="badge">Arriving in 25 mins</p>
+        </div>
+
+        <div class="mapview">
+            <img id="mapview" src="https://assets-global.website-files.com/6050a76fa6a633d5d54ae714/609147088669907f652110b0_report-an-issue(about-maps).jpeg" alt="">
+        </div>
+
+        <div id="driver-details">
+            <img class="driver-photo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlyi2_bX0gHjiNkq9nTQdS8ubHnVvvfyVQJ2FLEavOgg&s" alt="">
+            <div class="driver-status none" id="found-driver">
+                <p class="driver-into">Hello, I'm Balma your valet.</p>
+                <p class="driver-msg">I can speak English and Hindi.</p>
+            </div>
+            <div class="driver-status" id="finding-driver">
+                <p class="driver-into">We are searching for nearby valet</p>
+            </div>
+            <img src="https://cdn-icons-png.flaticon.com/512/5070/5070407.png" alt="icon" class="call none" id="call">
+        </div>
+        <div class="button">
+            <button id="findValet">Let's Find Valet</button>
+            <button id="acceptOrder">Ask for Restaurant Order</button>
+            <button id="deliverOrder">Deliver Order</button>
+        </div>
+    </div>
+</body>
+<script src="./src/script.js"></script>
+</html>
